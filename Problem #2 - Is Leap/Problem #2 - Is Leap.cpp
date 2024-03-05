@@ -2,7 +2,7 @@
 using namespace std;
 
 bool IsLeapYear(short Year) {
-    // Leap year if perfectly divisible by 400
+   
     return (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
 }
 
