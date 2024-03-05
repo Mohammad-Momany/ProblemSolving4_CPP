@@ -32,9 +32,18 @@ bool IsLeapYear(short Year) {
     return (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
 }
 
-bool IsEven(int Num)
-{
-    return Num % 2 == 0;
+short Thirty_ThirtyOneMonth(short month){
+
+    int Arr30Days[4] = {4, 6, 9, 11};
+
+    for (int i = 0; i < 4; i++)
+    {
+        if (Arr30Days[i] == month) {
+            return 30;
+        }
+    }
+
+    return 31;
 }
 
 short MonthToDays(short year, short month) {
@@ -43,13 +52,8 @@ short MonthToDays(short year, short month) {
     {
         return IsLeapYear(year) ? 29 : 28;
     }
-    else if (IsEven(month))
-    {
-        return 30;
-    }
-    else
-    {
-        return 31;
+    else {
+        return Thirty_ThirtyOneMonth(month);
     }
 
 }
