@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #1 - Number to Text", "Problem #1 - Number to Text\Problem #1 - Number to Text.vcxproj", "{2D18CB2E-AF4E-406A-AF14-73B250E8E0EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #2 - Is Leap", "Problem #2 - Is Leap\Problem #2 - Is Leap.vcxproj", "{833EC86B-DFA1-4394-B15E-DD49932A7FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{2D18CB2E-AF4E-406A-AF14-73B250E8E0EC}.Release|x64.Build.0 = Release|x64
 		{2D18CB2E-AF4E-406A-AF14-73B250E8E0EC}.Release|x86.ActiveCfg = Release|Win32
 		{2D18CB2E-AF4E-406A-AF14-73B250E8E0EC}.Release|x86.Build.0 = Release|Win32
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Debug|x64.ActiveCfg = Debug|x64
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Debug|x64.Build.0 = Debug|x64
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Debug|x86.Build.0 = Debug|Win32
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Release|x64.ActiveCfg = Release|x64
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Release|x64.Build.0 = Release|x64
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Release|x86.ActiveCfg = Release|Win32
+		{833EC86B-DFA1-4394-B15E-DD49932A7FDA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
