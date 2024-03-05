@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #2 - Is Leap", "Pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #4 - Convert Year to Days, Hours, Minutes and Seconds", "Problem #4 - Convert Year to Days, Hours, Minutes and Seconds\Problem #4 - Convert Year to Days, Hours, Minutes and Seconds.vcxproj", "{BBD8D249-8F4B-4A03-B7EE-6D50CB01C3B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #5 - Convert Month to Days, Hours, Minutes and Seconds", "Problem #5 - Convert Month to Days, Hours, Minutes and Seconds\Problem #5 - Convert Month to Days, Hours, Minutes and Seconds.vcxproj", "{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{BBD8D249-8F4B-4A03-B7EE-6D50CB01C3B7}.Release|x64.Build.0 = Release|x64
 		{BBD8D249-8F4B-4A03-B7EE-6D50CB01C3B7}.Release|x86.ActiveCfg = Release|Win32
 		{BBD8D249-8F4B-4A03-B7EE-6D50CB01C3B7}.Release|x86.Build.0 = Release|Win32
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Debug|x64.ActiveCfg = Debug|x64
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Debug|x64.Build.0 = Debug|x64
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Debug|x86.Build.0 = Debug|Win32
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Release|x64.ActiveCfg = Release|x64
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Release|x64.Build.0 = Release|x64
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Release|x86.ActiveCfg = Release|Win32
+		{EE9D52FB-C8E7-4026-B41E-680EC5EB8F9E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
