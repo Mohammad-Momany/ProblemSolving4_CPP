@@ -32,11 +32,6 @@ int ReadLimitedNumber(string message, int From, int To) {
 
 }
 
-bool IsDate1BeforeDate2(stDate Date1, stDate Date2) {
-    return (Date1.Year < Date2.Year) ? true : ((Date1.Year == Date2.Year) ? (Date1.Month < Date2.Month ? true : (Date1.Month == Date2.Month ? Date1.Day < Date2.Day : false)) : false);
-}
-
-
 stDate FillDate()
 {
     stDate Date;
@@ -49,14 +44,20 @@ stDate FillDate()
     return Date;
 }
 
+bool IsDate1EqualDate2(stDate Date1, stDate Date2) {
+    return (Date1.Year == Date2.Year) ? ((Date1.Month == Date2.Month) ? ((Date1.Day == Date2.Day) ? true : false) : false) : false;
+}
+
+
+
 int main() {
     stDate Date1 = FillDate();
     stDate Date2 = FillDate();
 
-    if (IsDate1BeforeDate2(Date1, Date2))
-        cout << "\nYes, Date1 is Less than Date2.";
+    if (IsDate1EqualDate2(Date1, Date2))
+        cout << "\nYes, Date1 is Equal To Date2.";
     else
-        cout << "\nNo, Date1 is NOT Less than Date2.";
+        cout << "\nNo, Date1 is NOT Equal To Date2.";
 
     system("pause>0");
     return 0;
