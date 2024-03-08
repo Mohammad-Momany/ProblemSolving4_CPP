@@ -29,7 +29,7 @@ bool IsLeapYear(short Year) {
     return (Year % 4 == 0 && Year % 100 != 0) || (Year % 400 == 0);
 }
 
-short MonthToDays(short year, short month) {
+short NumberOfDaysInAMonth(short year, short month) {
     if (month == 2)
     {
         return IsLeapYear(year) ? 29 : 28;
