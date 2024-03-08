@@ -96,7 +96,7 @@ void PrintMonthCalendar(stDate &Date) {
     printf("  Sun  Mon  Tue  Wed  Thu  Fri  Sat\n");
 
     short CurrentDay = DayOfWeekOrder(Date);
-    short MonthDays = MonthToDays(Date.year, Date.month);
+    short MonthDays = NumberOfDaysInAMonth(Date.year, Date.month);
 
     short Lenght = MonthDays + CurrentDay;
 
