@@ -72,7 +72,6 @@ short NumberOfDaysInAMonth(short year, short month) {
     }
 }
 
-
 short NumberOfDaysFromTheBeginingOfTheYear(short Day, short Month, short Year) {
     short TotalDays = 0;
     for (int i = 1; i <= Month - 1; i++) {

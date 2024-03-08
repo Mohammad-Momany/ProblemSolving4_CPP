@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #11 - Get Date From
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Number Of Days From The Begining Of The More Than Year", "Number Of Days From The Begining Of The More Than Year\Number Of Days From The Begining Of The More Than Year.vcxproj", "{173F8C7C-37CA-4FBF-9700-BFB08B6D19B0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #13 -  Is Date1 Before Date2", "Problem #13 -  Is Date1 Before Date2\Problem #13 -  Is Date1 Before Date2.vcxproj", "{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{173F8C7C-37CA-4FBF-9700-BFB08B6D19B0}.Release|x64.Build.0 = Release|x64
 		{173F8C7C-37CA-4FBF-9700-BFB08B6D19B0}.Release|x86.ActiveCfg = Release|Win32
 		{173F8C7C-37CA-4FBF-9700-BFB08B6D19B0}.Release|x86.Build.0 = Release|Win32
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Debug|x64.ActiveCfg = Debug|x64
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Debug|x64.Build.0 = Debug|x64
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Debug|x86.ActiveCfg = Debug|Win32
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Debug|x86.Build.0 = Debug|Win32
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Release|x64.ActiveCfg = Release|x64
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Release|x64.Build.0 = Release|x64
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Release|x86.ActiveCfg = Release|Win32
+		{1EF1C259-1F31-4BA2-BA8B-73648EDF3F91}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
