@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #14 -  Is Date1 Equ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #15 - Is Last Month In Year And Is Last Day in Month", "Problem #15 - Is Last Month In Year And Is Last Day in Month\Problem #15 - Is Last Month In Year And Is Last Day in Month.vcxproj", "{A9037254-F914-4E2D-9FF4-5638BACBBE41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #16 - Add one day to date", "Problem #16 - Add one day to date\Problem #16 - Add one day to date.vcxproj", "{810CE885-0147-444B-82CC-C0751B49A5F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{A9037254-F914-4E2D-9FF4-5638BACBBE41}.Release|x64.Build.0 = Release|x64
 		{A9037254-F914-4E2D-9FF4-5638BACBBE41}.Release|x86.ActiveCfg = Release|Win32
 		{A9037254-F914-4E2D-9FF4-5638BACBBE41}.Release|x86.Build.0 = Release|Win32
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Debug|x64.ActiveCfg = Debug|x64
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Debug|x64.Build.0 = Debug|x64
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Debug|x86.Build.0 = Debug|Win32
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Release|x64.ActiveCfg = Release|x64
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Release|x64.Build.0 = Release|x64
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Release|x86.ActiveCfg = Release|Win32
+		{810CE885-0147-444B-82CC-C0751B49A5F7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
