@@ -24,6 +24,7 @@
     <ProjectGuid>{173f8c7c-37ca-4fbf-9700-bfb08b6d19b0}</ProjectGuid>
     <RootNamespace>NumberOfDaysFromTheBeginingOfTheMoreThanYear</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Problem #18 - Number Of Days From The Begining Of The More Than Year</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
