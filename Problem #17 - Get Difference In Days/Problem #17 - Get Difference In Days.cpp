@@ -74,47 +74,29 @@ short NumberOfDaysInAMonth(short year, short month) {
     }
 }
 
-bool IsLastDayInMonth(stDate Date) {
-    return (Date.Day == NumberOfDaysInAMonth(Date.Year, Date.Month));
-}
-
-bool IsLastMonthInYear(short Month) {
-    return (Month == 12);
-}
-
-void AddMonth(stDate& Date)
-{
-    if (IsLastMonthInYear(Date.Month))
-    {
-        Date.Year += 1;
-        Date.Month = 1;
-        Date.Day = 1;
+short NumberOfDaysFromTheBeginingOfTheYear(short Day, short Month, short Year) {
+    short TotalDays = 0;
+    for (int i = 1; i <= Month - 1; i++) {
+        TotalDays += NumberOfDaysInAMonth(Year, i);
     }
-    else
-        Date.Month += 1;
+    TotalDays += Day;
+    return TotalDays;
 }
 
-void AddDay(stDate& Date) {
+short GetDifferenceInDays(stDate Date, stDate Date1, bool IncludeEndDay = false) {
 
-    if (IsLastDayInMonth(Date))
-    {
-        Date.Day = 1;
-        AddMonth(Date);
-        
-    }
-    else
-        Date.Day += 1;
+    short Difference = NumberOfDaysFromTheBeginingOfTheYear(Date1.Day, Date1.Month, Date1.Year) - NumberOfDaysFromTheBeginingOfTheYear(Date.Day, Date.Month, Date.Year);
+
+    return IncludeEndDay ? Difference + 1 : Difference;
 }
-
-
 int main() {
+
+    stDate Date = FillDate();
     stDate Date1 = FillDate();
 
-    cout << " Befor: \n";
-    cout << " Year: " << Date1.Year << " Month: " << Date1.Month << " Day: " << Date1.Day << "\n\n";
-    AddDay(Date1);
-    cout << "\n After: \n";
-    cout << " Year: " << Date1.Year << " Month: " << Date1.Month << " Day: " << Date1.Day << "\n\n";
+    cout << "\nDiffrence is: " << GetDifferenceInDays(Date, Date1) << " Day(s).";
+
+    cout << "\nDiffrence (Including End Day) is: " << GetDifferenceInDays(Date, Date1, true) << " Day(s).";
 
     system("pause>0");
     return 0;
