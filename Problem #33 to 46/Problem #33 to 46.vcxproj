@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{173f8c7c-37ca-4fbf-9700-bfb08b6d19b0}</ProjectGuid>
-    <RootNamespace>NumberOfDaysFromTheBeginingOfTheMoreThanYear</RootNamespace>
+    <ProjectGuid>{28f4c92f-0915-46cd-8487-9257853c50d5}</ProjectGuid>
+    <RootNamespace>Problem33to46</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Problem #18 - Number Of Days From The Begining Of The More Than Year</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Problem #18 - Number Of Days From The Begining Of The More Than Year.cpp" />
+    <ClCompile Include="Problem #33 to 46.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
