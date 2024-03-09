@@ -43,6 +43,16 @@ void FillDate(stDate& Date)
 
 }
 
+stDate GetSystemDate() {
+    stDate Date;
+    time_t t = time(0);
+    tm* now = localtime(&t);
+    Date.year = now->tm_year + 1900;
+    Date.month = now->tm_mon + 1;
+    Date.day = now->tm_mday;
+    return Date;
+}
+
 short Thirty_ThirtyOneMonth(short month) {
 
     int Arr30Days[4] = { 4, 6, 9, 11 };
@@ -83,13 +93,15 @@ short NumberOfDaysFromTheBeginingOfTheYear(short Day, short Month, short Year) {
 
 int NumberOfDaysFromTheBeginingOfTheYears(stDate &Date) {
 
-    time_t t = time(0);
-    tm* now = localtime(&t);
-    short NumberOfDays = NumberOfDaysFromTheBeginingOfTheYear(now->tm_mday, now->tm_mon + 1, (now->tm_year + 1900));
+    stDate CurrentDate = GetSystemDate();
 
-    NumberOfDays += (IsLeapYear(Date.year) ? 366 - NumberOfDaysFromTheBeginingOfTheYear(Date.day, Date.month, Date.year) : 365 - NumberOfDaysFromTheBeginingOfTheYear(Date.day, Date.month, Date.day));
+    short NumberOfDays = NumberOfDaysFromTheBeginingOfTheYear(CurrentDate.day, CurrentDate.month, CurrentDate.year);
 
-    short YearLength = now->tm_year + 1900 - Date.year;
+    
+    NumberOfDays += (IsLeapYear(Date.year) ? 366  : 365 ) - NumberOfDaysFromTheBeginingOfTheYear(Date.day, Date.month, Date.year);
+
+    short YearLength = CurrentDate.year - Date.year;
+
     for (int i = 1; i < YearLength; i++)
     {
         NumberOfDays += (IsLeapYear(Date.year + i) ? 366 : 365);
