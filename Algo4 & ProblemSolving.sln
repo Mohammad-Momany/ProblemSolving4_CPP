@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #47 to 53", "Proble
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #54 - Calculate Vacation Days", "Problem #54 - Calculate Vacation Days\Problem #54 - Calculate Vacation Days.vcxproj", "{7A4C7E1F-9C44-4B61-A94F-2534BD90EAF2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Problem #55 - Calculate Vacation Date", "Problem #55 - Calculate Vacation Date\Problem #55 - Calculate Vacation Date.vcxproj", "{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{7A4C7E1F-9C44-4B61-A94F-2534BD90EAF2}.Release|x64.Build.0 = Release|x64
 		{7A4C7E1F-9C44-4B61-A94F-2534BD90EAF2}.Release|x86.ActiveCfg = Release|Win32
 		{7A4C7E1F-9C44-4B61-A94F-2534BD90EAF2}.Release|x86.Build.0 = Release|Win32
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Debug|x64.ActiveCfg = Debug|x64
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Debug|x64.Build.0 = Debug|x64
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Debug|x86.Build.0 = Debug|Win32
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Release|x64.ActiveCfg = Release|x64
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Release|x64.Build.0 = Release|x64
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Release|x86.ActiveCfg = Release|Win32
+		{97EDA1CB-D4FC-4A8C-99C7-C4A736E75AF3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
